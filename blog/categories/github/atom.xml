@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GitHub | Jojaku Blog]]></title>
+  <link href="http://bgtr.github.com/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://bgtr.github.com/"/>
+  <updated>2012-11-15T22:27:30+09:00</updated>
+  <id>http://bgtr.github.com/</id>
+  <author>
+    <name><![CDATA[bgtr]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress + GitHub + DropBoxでブログ開設]]></title>
+    <link href="http://bgtr.github.com/blog/2012/11/15/title/"/>
+    <updated>2012-11-15T21:52:00+09:00</updated>
+    <id>http://bgtr.github.com/blog/2012/11/15/title</id>
+    <content type="html"><![CDATA[<p>タイトル通り、
+  Octopress + GitHub + DropBox
+でブログを始めました。</p>
+
+<p>参考にしたのは、以下のサイト。
+  <a href="http://www.sankitch.me/blog/2012/05/05/build-octopress-on-github-dropbox/">Octopress + Github Pages + Dropbox でブログを構築</a></p>
+
+<p>簡単ですね。</p>
+
+<h2>Octopress のコマンド</h2>
+
+<p>忘れやすいのでメモ。</p>
+
+<p>```</p>
+
+<h1>記事の新規作成</h1>
+
+<p>rake new_post["title"]</p>
+
+<h1>記事のプレビュー at http://localhost:4000</h1>
+
+<p>rake generate
+rake preview</p>
+
+<h1>記事の投稿</h1>
+
+<p>rake deploy
+```</p>
+
+<p>詳しくは<a href="http://octopress.org/docs/blogging/">公式ドキュメント</a>へ。</p>
+
+<p>Markdown記法も覚えないとな。</p>
+]]></content>
+  </entry>
+  
+</feed>
