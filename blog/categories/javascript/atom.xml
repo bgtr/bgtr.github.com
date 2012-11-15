@@ -4,7 +4,7 @@
   <title><![CDATA[Category: JavaScript | Jojaku Blog]]></title>
   <link href="http://bgtr.github.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://bgtr.github.com/"/>
-  <updated>2012-11-15T23:10:51+09:00</updated>
+  <updated>2012-11-15T23:23:24+09:00</updated>
   <id>http://bgtr.github.com/</id>
   <author>
     <name><![CDATA[bgtr]]></name>
@@ -22,13 +22,18 @@
 
 <h2>YEOMANとは?</h2>
 
-<p><a href="http://yeoman.io/index.html">公式サイト</a>によると、
-* Package Management : パッケージ管理
-* Build System : ビルドタスク
-* LiveReload Watch Process : LiveReload
-* Generators : scaffolding
-* Local Server
-と、最近のWebアプリでよく用いられるライブラリ・ツールをまとめて管理してくれるもの。
+<p><a href="http://yeoman.io/index.html">公式サイト</a>によると、</p>
+
+<ul>
+<li>Package Management : パッケージ管理</li>
+<li>Build System : ビルドタスク</li>
+<li>LiveReload Watch Process : LiveReload</li>
+<li>Generators : scaffolding</li>
+<li>Local Server</li>
+</ul>
+
+
+<p>と、最近のWebアプリでよく用いられるライブラリ・ツールをまとめて管理してくれるもの。
 対話式コンソールでBackbone.js やら Require.js やらのライブラリを選択していくと、
 基本的な骨組みが簡単に生成されるCUIツール(のはず)。</p>
 
