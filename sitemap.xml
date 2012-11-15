@@ -2,14 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://bgtr.github.com/blog/2012/11/15/title/</loc>
-        <lastmod>2012-11-15T22:27:19+09:00</lastmod>
+        <lastmod>2012-11-15T22:28:22+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bgtr.github.com/blog/2012/11/15/yeoman-installtion/</loc>
+        <lastmod>2012-11-15T23:09:55+09:00</lastmod>
     </url>
     <url>
         <loc>http://bgtr.github.com/blog/archives/</loc>
-        <lastmod>2012-11-15T22:27:19+09:00</lastmod>
+        <lastmod>2012-11-15T23:09:55+09:00</lastmod>
     </url>
     <url>
         <loc>http://bgtr.github.com/</loc>
-        <lastmod>2012-11-15T22:27:19+09:00</lastmod>
+        <lastmod>2012-11-15T23:09:55+09:00</lastmod>
     </url>
 </urlset>

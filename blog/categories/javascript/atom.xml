@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: JavaScript | Jojaku Blog]]></title>
+  <link href="http://bgtr.github.com/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://bgtr.github.com/"/>
+  <updated>2012-11-15T23:10:51+09:00</updated>
+  <id>http://bgtr.github.com/</id>
+  <author>
+    <name><![CDATA[bgtr]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[YEOMAN をインストールしてみる]]></title>
+    <link href="http://bgtr.github.com/blog/2012/11/15/yeoman-installtion/"/>
+    <updated>2012-11-15T22:55:00+09:00</updated>
+    <id>http://bgtr.github.com/blog/2012/11/15/yeoman-installtion</id>
+    <content type="html"><![CDATA[<p>巷で噂のYEOMANをインストールしてみる。</p>
+
+<h2>YEOMANとは?</h2>
+
+<p><a href="http://yeoman.io/index.html">公式サイト</a>によると、
+* Package Management : パッケージ管理
+* Build System : ビルドタスク
+* LiveReload Watch Process : LiveReload
+* Generators : scaffolding
+* Local Server
+と、最近のWebアプリでよく用いられるライブラリ・ツールをまとめて管理してくれるもの。
+対話式コンソールでBackbone.js やら Require.js やらのライブラリを選択していくと、
+基本的な骨組みが簡単に生成されるCUIツール(のはず)。</p>
+
+<h2>インストール</h2>
+
+<p>簡単。</p>
+
+<p>```</p>
+
+<h1>インストール (要 Node 0.8.x)</h1>
+
+<p>$ curl -L get.yeoman.io | bash</p>
+
+<h1>アプリ骨組みの作成</h1>
+
+<p>$ mkdir hoge &amp;&amp; cd hoge
+$ yeoman init
+```
+で、骨組みを作ってくれます。</p>
+
+<h2>他に何ができるの?</h2>
+
+<p><a href="http://havelog.ayumusato.com/develop/others/e516-yeoman.html">Yeoman ヨーマン</a>
+を参考にしてくれーい。</p>
+
+<p>細々と使っていこうと思う。</p>
+]]></content>
+  </entry>
+  
+</feed>

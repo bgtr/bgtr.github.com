@@ -4,7 +4,7 @@
   <title><![CDATA[Jojaku Blog]]></title>
   <link href="http://bgtr.github.com/atom.xml" rel="self"/>
   <link href="http://bgtr.github.com/"/>
-  <updated>2012-11-15T22:27:30+09:00</updated>
+  <updated>2012-11-15T23:10:51+09:00</updated>
   <id>http://bgtr.github.com/</id>
   <author>
     <name><![CDATA[bgtr]]></name>
@@ -12,6 +12,54 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YEOMAN をインストールしてみる]]></title>
+    <link href="http://bgtr.github.com/blog/2012/11/15/yeoman-installtion/"/>
+    <updated>2012-11-15T22:55:00+09:00</updated>
+    <id>http://bgtr.github.com/blog/2012/11/15/yeoman-installtion</id>
+    <content type="html"><![CDATA[<p>巷で噂のYEOMANをインストールしてみる。</p>
+
+<h2>YEOMANとは?</h2>
+
+<p><a href="http://yeoman.io/index.html">公式サイト</a>によると、
+* Package Management : パッケージ管理
+* Build System : ビルドタスク
+* LiveReload Watch Process : LiveReload
+* Generators : scaffolding
+* Local Server
+と、最近のWebアプリでよく用いられるライブラリ・ツールをまとめて管理してくれるもの。
+対話式コンソールでBackbone.js やら Require.js やらのライブラリを選択していくと、
+基本的な骨組みが簡単に生成されるCUIツール(のはず)。</p>
+
+<h2>インストール</h2>
+
+<p>簡単。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># インストール (要 Node 0.8.x) 
+</span><span class='line'>$ curl -L get.yeoman.io | bash
+</span><span class='line'>
+</span><span class='line'># アプリ骨組みの作成
+</span><span class='line'>$ mkdir hoge && cd hoge
+</span><span class='line'>$ yeoman init</span></code></pre></td></tr></table></div></figure>
+
+
+<p>で、骨組みを作ってくれます。</p>
+
+<h2>他に何ができるの?</h2>
+
+<p><a href="http://havelog.ayumusato.com/develop/others/e516-yeoman.html">Yeoman ヨーマン</a>
+を参考にしてくれーい。</p>
+
+<p>細々と使っていこうと思う。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress + GitHub + DropBoxでブログ開設]]></title>
@@ -39,12 +87,10 @@
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
-<span class='line-number'>9</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'># 記事の新規作成
 </span><span class='line'>rake new_post["title"]
 </span><span class='line'>
 </span><span class='line'># 記事のプレビュー at http://localhost:4000
-</span><span class='line'>rake generate
 </span><span class='line'>rake preview
 </span><span class='line'>
 </span><span class='line'># 記事の投稿
